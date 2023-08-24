@@ -1,0 +1,33 @@
+.Avada-SP__Wrapper {
+  width: 350px;
+  position: relative;
+  height: 112px;
+  z-index: 99;
+  color: #333;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: #dfe1e3;
+  border-style: solid;
+  border-width: thin;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),
+    0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.Avada-SP__Wrapper .Avada-SP__Container {
+  display: flex;
+}
+
+.Avada-SP__Wrapper .Avada-SP__Footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.check {
+  font-size: 15px;
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity));
+}
